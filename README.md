@@ -22,7 +22,7 @@ The following strategy target is to be able to make a one standard deviation sho
 The one standard deviation short straddle involves selling both  call options and put options with the same expiration date and strike price, but the strike price is set at one standard deviation away from the current strike price of the underlying asset. This positioning aims to increase the probability of the underlying asset staying within the profit zone of the trade.
 
 
-![Short Straddle](shortstraddle600x340.png)
+![Short Straddle](https://www.fidelity.com/bin-public/600_Fidelity_Com_English/images/migration/shortstraddle600x340.png)
 
 
 there are several advantages to the following strategy which are: 
