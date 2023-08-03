@@ -15,11 +15,10 @@ This project implements an options trading algorithm using the Interactive Broke
 
   ## Short Straddle Strategy
 
-Description: 
 
 The following strategy target is to be able to make a one standard deviation short straddle entry when the implied volatility rank (IVR) must be higher than 50. The strategy takes advantage of the elevated option premiums in a high implied volatility environment while also positioning the trade to be within one standard deviation of the underlying asset's current price.
 
-The one standard deviation short straddle involves selling both  call options and put options with the same expiration date and strike price, but the strike price is set at one standard deviation away from the current strike price of the underlying asset. This positioning aims to increase the probability of the underlying asset staying within the profit zone of the trade.
+The one standard deviation short straddle involves selling both  call options and put options with the same expiration date, but the strike price is set at one standard deviation away from the current strike price of the underlying asset. This positioning aims to increase the probability of the underlying asset staying within the profit zone of the trade.
 
 
 ![Short Straddle](https://www.fidelity.com/bin-public/600_Fidelity_Com_English/images/migration/shortstraddle600x340.png)
@@ -27,7 +26,7 @@ The one standard deviation short straddle involves selling both  call options an
 
 there are several advantages to the following strategy which are: 
 
-- **Enhanced Premium Income** In a high implied volatility environment, options tend to have higher premiums. By selling both a call and a put option at the same strike price and expiration date, the short straddle allows the trader to collect more substantial premiums upfront. The increased premium income provides a cushion against potential losses and contributes to higher overall profitability.
+- **Enhanced Premium Income** In a high implied volatility environment, options tend to have higher premiums. By selling both a call and a put option, the short straddle allows the trader to collect more substantial premiums upfront. The increased premium income provides a cushion against potential losses and contributes to higher overall profitability.
 - **Exploiting Time Decay** Short straddles benefit from time decay, also known as theta decay. As time passes, the extrinsic value of options diminishes, leading to a reduction in their premiums. Traders who have sold the straddle can profit from this time decay, especially when implied volatility is high and option premiums are inflated.
 - **Neutral Strategy** The short straddle is a market-neutral strategy, meaning it is designed to generate profits regardless of the market direction. It thrives in a sideways or range-bound market, making it suitable for high implied volatility environments where the underlying asset's price is expected to remain relatively stable.
 - **High Probability of Success** In high implied volatility environments, options are priced with larger anticipated price swings. The short straddle strategy benefits from the potential overpricing of these options due to inflated implied volatility. The trader can capitalize on the higher likelihood of options expiring out-of-the-money, leading to a higher probability of success.
